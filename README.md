@@ -29,23 +29,24 @@ O projeto tem como objetivo simular uma API DICT semelhante à usada pelo Banco 
 
 ```
 dict-simulator/
-├── src/
+├── src/                        # Código-fonte da API
 │   ├── app/
-│   │   ├── controllers/
-│   │   ├── formRequests/
-│   │   ├── repositories/
-│   │   ├── resources/
-│   │   ├── services/
-│   ├── docs/           
-│   ├── models/
-│   ├── routes/
-│   └── app.js
-├── tests/
-├── .env
-├── jest.config.js
-├── server.js
-├── package.json
-└── README.md
+│   │   ├── controllers/        # Lógica de controle de rotas
+│   │   ├── formRequests/       # Validações de entrada
+│   │   ├── repositories/       # Acesso a dados
+│   │   ├── resources/          # Respostas e formatação
+│   │   ├── services/           # Lógica de negócios
+│   ├── models/                 # Modelos de dados
+│   ├── routes/                 # Definição das rotas
+│   ├── docs/                   # Documentação Swagger
+│   └── app.js                  # Arquivo de configuração principal
+├── tests/                      # Testes automatizados
+├── .env                        # Arquivo de configuração de ambiente (excluído do Git)
+├── .gitignore                  # Ignorar arquivos não necessários
+├── README.md                   # Documentação principal
+├── jest.config.js             # Configuração do Jest
+├── server.js                   # Arquivo para inicializar o servidor
+└── package.json                # Dependências e scripts do projeto
 ```
 
 ---
