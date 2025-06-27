@@ -42,6 +42,7 @@ dict-simulator/
 │   └── app.js
 ├── tests/
 ├── .env
+├── jest.config.js
 ├── server.js
 ├── package.json
 └── README.md
