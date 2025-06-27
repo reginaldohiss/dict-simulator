@@ -66,7 +66,7 @@ dict-simulator/
 ### 1. Clone o repositório:
 
 ```bash
-  git clone https://github.com/seu-usuario/dict-simulator.git
+  git clone https://github.com/reginaldohiss/dict-simulator.git
   cd dict-simulator
 ```
 
@@ -171,12 +171,6 @@ Separação de responsabilidades clara, ideal para crescimento e manutenção.
 ## 📄 Licença
 
 Distribuído sob a licença MIT. Consulte `LICENSE` para mais detalhes.
-
----
-
-## 🤝 Contribuição
-
-Pull requests são bem-vindos! Para grandes mudanças, abra uma issue antes.
 
 ---
 
